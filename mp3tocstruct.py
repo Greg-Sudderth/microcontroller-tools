@@ -8,6 +8,12 @@ import os
 # the RTI Media (rtimedia.com) Message On Hold player.  This lets the player be tested
 # during manufacture without a SD card.
 #
+# Example output:
+# unsigned char music[] = 
+# { 
+#     04, 91, 22, 55, 14, 19, 67
+# };
+#
 # Author: Gregory R. Sudderth
 
 argLen = len(sys.argv)
